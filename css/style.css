@@ -1,5 +1,6 @@
 #main-navbar{
   background-color: blue;}
+  position: relative;
 
 #navbar-container{
   width: 100%;}
@@ -9,10 +10,11 @@
   display: block;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #navbar-container ul li{
-  
+  float: left;
 }
 
 #navbar-container ul li a{
