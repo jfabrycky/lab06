@@ -46,6 +46,7 @@
 #sidebar-container ul li a{
   background-color: red;
   display: block;
+  padding: 15px 0;
 }
 
 #sidebar-container ul li a:hover{
