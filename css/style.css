@@ -1,2 +1,12 @@
 #main-navbar{
   background-color: blue;}
+
+#navbar-container{
+  width: 100%;}
+
+#navbar-container ul{
+  list-style-type: none;
+  display: block;}
+
+#navbar-container ul li{
+  
