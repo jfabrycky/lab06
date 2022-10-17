@@ -6,7 +6,43 @@
 
 #navbar-container ul{
   list-style-type: none;
-  display: block;}
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 
 #navbar-container ul li{
   
+}
+
+#navbar-container ul li a{
+  text-decoration: none;
+}
+
+#onpage{
+  background-color: #000;
+}
+
+#sidebar{
+  right: 0%;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+}
+#sidebar-container{
+  
+}
+
+#sidebar-container ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar-container ul li a{
+  background-color: red;
+  display: block;
+}
+
+#sidebar-container ul li a:hover{
+  background-color: #000;
+}
