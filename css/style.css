@@ -18,11 +18,13 @@
 #navbar-container ul li{
   float: left;
   position: relative;
+  display: block;
 }
 
 #navbar-container ul li a{
   text-decoration: none;
   padding: 10px 20px;
+  display: block;
 }
 
 #navbar-container ul li a: hover{
