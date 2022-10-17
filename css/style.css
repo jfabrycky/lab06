@@ -25,6 +25,8 @@
   text-decoration: none;
   padding: 10px 20px;
   display: block;
+  position: relative;
+  color: #fff;
 }
 
 #navbar-container ul li a: hover{
