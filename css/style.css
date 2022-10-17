@@ -23,8 +23,11 @@
   padding: 10px 20px;
 }
 
-#onpage{
+#navbar-container ul li a: hover{
   background-color: #000;
+}
+
+#onpage{
   text-decoration: underline overline;
 }
 
@@ -33,17 +36,15 @@
   position: fixed;
   height: 100%;
   width: 20%;
-}
-#sidebar-container{
-  
+  background-color: red;
 }
 
-#sidebar-container ul{
+#sidebar ul{
   list-style-type: none;
   padding: 0;
 }
 
-#sidebar-container ul li a{
+#sidebar ul li a{
   background-color: red;
   display: block;
   padding: 15px 0;
@@ -51,6 +52,6 @@
   text-align: center;
 }
 
-#sidebar-container ul li a:hover{
+#sidebar ul li a:hover{
   background-color: #000;
 }
